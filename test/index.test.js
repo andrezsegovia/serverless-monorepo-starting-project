@@ -1,8 +1,10 @@
-const { CadApiResponse } = require('../dist/CadApiResponse');
+const { CadApiResponses } = require('../dist/CadApiResponses');
 
-
-test('Create a instance of the class', () => {
-    /* const cadApiResponse = new CadApiResponse(); */
-    console.log(new CadApiResponse());
-    return true;
+describe('Test lib', () => {
+    test('Create a instance of the class', () => {
+        const cadApiResponse = new CadApiResponses();
+        console.log(cadApiResponse);
+        console.log(cadApiResponse.getName('Andrez'));
+        return undefined;
+    });
 });

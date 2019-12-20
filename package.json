@@ -6,6 +6,7 @@
     "scripts": {
         "test": "jest",
         "serve": "webpack-dev-server --open --config webpack.dev.js",
+        "build-ts": "tsc",
         "build-dev": "webpack --config webpack.dev.js",
         "build": "webpack --config webpack.prod.js"
     },

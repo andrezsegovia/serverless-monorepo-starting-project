@@ -1,5 +1,7 @@
+const webpack = require('webpack');
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 
 module.exports = {
     entry: './src/index.ts',
@@ -17,7 +19,8 @@ module.exports = {
         new CleanWebpackPlugin(),
     ],
     output: {
-        filename: 'CadApiResponse.js',
+        filename: 'CadApiResponses/index.js',
         path: path.resolve(__dirname, 'dist'),
+        libraryTarget: 'commonjs2',
     },
 };
