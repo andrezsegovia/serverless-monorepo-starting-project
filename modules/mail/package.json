@@ -1,0 +1,24 @@
+{
+    "name": "mail",
+    "version": "0.0.1",
+    "description": "Modulo para el envío de correos electronicos",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "build-ts": "tsc --project ../../tsconfig.json",
+        "build-dev": "webpack --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "jest": "^25.1.0",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.5",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "core": "^0.0.1"
+    }
+}

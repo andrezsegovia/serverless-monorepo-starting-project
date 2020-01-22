@@ -1,6 +1,6 @@
-export class CadApiResponses {
+export class Core {
     constructor() {
-        console.log('Class Index!');
+        console.log('Core module loaded!');
     }
 
     getName(name: string): string {
