@@ -8,6 +8,6 @@ module.exports = merge(common, {
         contentBase: './dist',
     },
     output: {
-        filename: 'mail.bundle.js',
+        filename: 'other.bundle.js',
     },
 });

@@ -1,6 +1,6 @@
-const { Core } = require('core');
+import { Core } from 'core';
 
-export class Mail {
+export class Other {
     constructor() {
         console.log('Mail module loaded!');
         const core = new Core();

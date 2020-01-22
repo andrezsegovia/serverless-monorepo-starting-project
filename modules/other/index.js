@@ -5,4 +5,4 @@
  *
  * @module Mail
  */
-module.exports = require('./dist/mail.bundle.js');
+module.exports = require('./dist/other.bundle.js');

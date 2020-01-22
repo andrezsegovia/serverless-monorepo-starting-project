@@ -1,11 +1,8 @@
 {
-    "name": "webpack-ts",
+    "name": "serverless-monorepo-starting-project",
     "version": "0.0.1",
-    "main": "index.js",
     "scripts": {
-        "test": "jest",
-        "serve": "webpack-dev-server --open --config webpack.dev.js",
-        "bootstrap": "lerna bootstrap --hoist"
+        "bootstrap": "lerna clean && lerna link && lerna bootstrap"
     },
     "devDependencies": {
         "lerna": "^3.20.2"

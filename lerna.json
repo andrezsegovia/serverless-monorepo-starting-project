@@ -1,8 +1,13 @@
 {
-    "version": "0.0.1",
+    "version": "independent",
     "npmCliient": "npm",
     "packages": [
         "modules/core",
-        "modules/mail"
-    ]
+        "modules/other"
+    ],
+    "command": {
+        "bootstrap": {
+            "hoist": true
+        }
+    }
 }
